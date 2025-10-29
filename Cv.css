@@ -11,6 +11,12 @@ body {
     body{
         font-size: 18px;
     }
+
+     .header,
+    .content
+      {
+        flex-direction: column;
+    }
     
 }
 
@@ -18,11 +24,7 @@ body {
     body{
         font-size: 18px;
     }
-     .header,
-    .content
-      {
-        flex-direction: column;
-    }
+    
     
 }
 @media (min-width: 1024px){
@@ -120,4 +122,5 @@ ul li:before {
     font-size: 0.9em;
     color: #555;
 }
+
 
