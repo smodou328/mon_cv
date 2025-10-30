@@ -85,6 +85,7 @@ input{
 }
 .reseaux-sociaux a:hover{
     box-shadow: 0 0 1rem #000;
+}
 .container {
     width: 90%;
     max-width: 1200px;
@@ -174,6 +175,7 @@ ul li:before {
     font-size: 0.9em;
     color: #555;
 }
+
 
 
 
