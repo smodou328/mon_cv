@@ -32,41 +32,6 @@ body {
     
 }
 
-.form-example{
-    width: 700px;
-    margin: 0 auto;
-    padding: 20px 30px;
-}
-
-.menu{
-    display: flex;
-    gap: 20px;
-}
-
-.Modou{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-#message{
-    height: 120px;
-    color:#333;
-    resize: none;
-    border: 1px solid rgba(0, 0, 0, 0.1);;
-}
-
-#Modou{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-input{
-    /* background-color: maroon; */
-    color: #333;
-    border: 1px solid rgba(0, 0, 0, 0.1);;
-}
 .reseaux-sociaux a{
     display: inline-flex;
     justify-content: center;
@@ -175,6 +140,7 @@ ul li:before {
     font-size: 0.9em;
     color: #555;
 }
+
 
 
 
