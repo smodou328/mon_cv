@@ -88,8 +88,26 @@
             <p>&copy; 2025 Serigne Modou | Tous droits reservés</p>
         </footer>
     </div>
+     <script>
+    // Texte à afficher
+    const nom = "Serigne Modou Lo";
+    const element = document.getElementById("nom");
+
+    // Animation lettre par lettre
+    let i = 0;
+    function ecrireNom() {
+      if (i < nom.length) {
+        element.textContent += nom.charAt(i);
+        i++;
+        setTimeout(ecrireNom, 150); // vitesse d’écriture
+      }
+    }
+
+    ecrireNom();
+  </script>
 </body>
 </html>
+
 
 
 
